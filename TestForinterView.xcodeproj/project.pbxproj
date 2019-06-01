@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A967D85322A01385006C2702 /* test1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A967D85222A01385006C2702 /* test1.cpp */; };
+		A967D85622A2133A006C2702 /* JudgePosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A967D85422A2133A006C2702 /* JudgePosition.cpp */; };
 		A985BE3A228DA8B400FF22DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A985BE39228DA8B400FF22DA /* main.cpp */; };
+		A9BB928F228F0C35008B637C /* quickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9BB928D228F0C35008B637C /* quickSort.cpp */; };
+		A9C63467229599950055EF60 /* VirtualTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9C63465229599950055EF60 /* VirtualTable.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A967D85222A01385006C2702 /* test1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test1.cpp; sourceTree = "<group>"; };
+		A967D85422A2133A006C2702 /* JudgePosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JudgePosition.cpp; sourceTree = "<group>"; };
+		A967D85522A2133A006C2702 /* JudgePosition.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JudgePosition.hpp; sourceTree = "<group>"; };
 		A985BE36228DA8B400FF22DA /* TestForinterView */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestForinterView; sourceTree = BUILT_PRODUCTS_DIR; };
 		A985BE39228DA8B400FF22DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A9BB928D228F0C35008B637C /* quickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quickSort.cpp; sourceTree = "<group>"; };
+		A9BB928E228F0C35008B637C /* quickSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quickSort.hpp; sourceTree = "<group>"; };
+		A9C63465229599950055EF60 /* VirtualTable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualTable.cpp; sourceTree = "<group>"; };
+		A9C63466229599950055EF60 /* VirtualTable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VirtualTable.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				A985BE39228DA8B400FF22DA /* main.cpp */,
+				A967D85422A2133A006C2702 /* JudgePosition.cpp */,
+				A967D85522A2133A006C2702 /* JudgePosition.hpp */,
+				A9BB928D228F0C35008B637C /* quickSort.cpp */,
+				A9BB928E228F0C35008B637C /* quickSort.hpp */,
+				A967D85222A01385006C2702 /* test1.cpp */,
+				A9C63465229599950055EF60 /* VirtualTable.cpp */,
+				A9C63466229599950055EF60 /* VirtualTable.hpp */,
 			);
 			path = TestForinterView;
 			sourceTree = "<group>";
@@ -119,6 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A985BE3A228DA8B400FF22DA /* main.cpp in Sources */,
+				A967D85622A2133A006C2702 /* JudgePosition.cpp in Sources */,
+				A9BB928F228F0C35008B637C /* quickSort.cpp in Sources */,
+				A9C63467229599950055EF60 /* VirtualTable.cpp in Sources */,
+				A967D85322A01385006C2702 /* test1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
