@@ -1,22 +1,36 @@
-#include <unistd.h>
-#include <stdio.h>
-int main ()
+#include <iostream>
+#include <vector>
+using namespace std;
+class A
 {
-    pid_t fpid; //fpid表示fork函数返回的值
-    int count=0;
-    fpid=fork();
-    if (fpid < 0)
-        printf("error in fork!");
-    else if (fpid == 0) {
-        printf("i am the child process, my process id is %d/n",getpid());
-        printf("我是爹的儿子/n");//对某些人来说中文看着更直白。
-        count++;
-    }
-    else {
-        printf("i am the parent process, my process id is %d/n",getpid());
-        printf("我是孩子他爹/n");
-        count++;
-    }
-    printf("统计结果是: %d/n",count);
-    return 0;
+public:
+    A(int pram1, int pram2, int pram3);
+private:
+    int a;
+    int &b;
+    const int c;
+};
+
+A::A(int pram1, int pram2, int pram3): c(pram3), b(pram2)
+{
+    a=pram1;
+    b=pram2;
+   // c=pram3;
+}
+
+int main() {
+    vector<int> a;
+    a.reserve(100);
+    a.resize(50);
+    cout<<a.size()<<"  "<<a.capacity()<<endl;
+    //50  100
+    a.resize(150);
+    cout<<a.size()<<"  "<<a.capacity()<<endl;
+    //150  200
+    a.reserve(50);
+    cout<<a.size()<<"  "<<a.capacity()<<endl;
+    //150  200
+    a.resize(50);
+    cout<<a.size()<<"  "<<a.capacity()<<endl;
+    //50  200
 }
