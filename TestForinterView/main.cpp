@@ -1,36 +1,30 @@
+#include <string>
 #include <iostream>
-#include <vector>
 using namespace std;
-class A
-{
-public:
-    A(int pram1, int pram2, int pram3);
-private:
-    int a;
-    int &b;
-    const int c;
-};
+#include <typeinfo>
 
-A::A(int pram1, int pram2, int pram3): c(pram3), b(pram2)
+void f(char const *ptr)
 {
-    a=pram1;
-    b=pram2;
-   // c=pram3;
+    cout << "1" << endl;
 }
 
-int main() {
-    vector<int> a;
-    a.reserve(100);
-    a.resize(50);
-    cout<<a.size()<<"  "<<a.capacity()<<endl;
-    //50  100
-    a.resize(150);
-    cout<<a.size()<<"  "<<a.capacity()<<endl;
-    //150  200
-    a.reserve(50);
-    cout<<a.size()<<"  "<<a.capacity()<<endl;
-    //150  200
-    a.resize(50);
-    cout<<a.size()<<"  "<<a.capacity()<<endl;
-    //50  200
+void f(int v)
+{
+    cout << "2" << endl;
+}
+
+int main(int argc, char *argv[])
+{
+     auto m = "ff";
+     if (typeid(int) == typeid(m))
+         cout << "FFFFF" << endl;
+    cout <<"gggg" << typeid(NULL).name() << endl;
+    int nn [][4] ={1, 1};
+    //  cout << sizeof(nn);
+    for(int k = 0; k < 4; k++){
+        cout << nn[0][k] << endl;
+    }
+    f(nullptr);
+    int * p = nullptr;
+    return 0;
 }

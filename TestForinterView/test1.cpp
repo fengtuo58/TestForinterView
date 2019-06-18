@@ -7,8 +7,10 @@
 //
 int ccc;
 #include <stdio.h>
+
  int fun()
 {
+    
     static int m;
     printf("%d\n", m);
     return 0;
