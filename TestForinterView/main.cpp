@@ -157,7 +157,7 @@ int main(int argc, char *argv[])
 //    std::cout << [&](float f) mutable { return f0 += std::abs(f); } (-3.5);//fo is a copy for fo in outsides
 //    //C++ 11 标准说，如果以传值的形式捕获外部变量，那么，lambda 体不允许修改外部变量，对 f0 的任何修改都会引发编译错误。
 //    std::cout << '\n' << f0 << '\n';
-    
+//https://www.cnblogs.com/langzou/p/5962033.html
     float f0 = 1.0f;
     float f1 = 10.0f;
     std::cout << [=, &f0](float a) { return f0 += f1 + std::abs(a); } (-3.5);
