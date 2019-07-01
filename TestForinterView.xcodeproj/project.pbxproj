@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A912210522ACAF34000C72D8 /* testErase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A912210422ACAF34000C72D8 /* testErase.cpp */; };
 		A91B17DE22A4CD6C002D46DD /* overtite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A91B17DD22A4CD6C002D46DD /* overtite.cpp */; };
-		A92F465822C8AFAD0084ED7E /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A92F465622C8AFAD0084ED7E /* String.cpp */; };
 		A967D85322A01385006C2702 /* test1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A967D85222A01385006C2702 /* test1.cpp */; };
 		A967D85622A2133A006C2702 /* JudgePosition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A967D85422A2133A006C2702 /* JudgePosition.cpp */; };
 		A985BE3A228DA8B400FF22DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A985BE39228DA8B400FF22DA /* main.cpp */; };
@@ -32,7 +31,6 @@
 /* Begin PBXFileReference section */
 		A912210422ACAF34000C72D8 /* testErase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testErase.cpp; sourceTree = "<group>"; };
 		A91B17DD22A4CD6C002D46DD /* overtite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = overtite.cpp; sourceTree = "<group>"; };
-		A92F465622C8AFAD0084ED7E /* String.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
 		A92F465722C8AFAD0084ED7E /* String.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = String.hpp; sourceTree = "<group>"; };
 		A967D85222A01385006C2702 /* test1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test1.cpp; sourceTree = "<group>"; };
 		A967D85422A2133A006C2702 /* JudgePosition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JudgePosition.cpp; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				A985BE39228DA8B400FF22DA /* main.cpp */,
-				A92F465622C8AFAD0084ED7E /* String.cpp */,
 				A92F465722C8AFAD0084ED7E /* String.hpp */,
 				A912210422ACAF34000C72D8 /* testErase.cpp */,
 				A91B17DD22A4CD6C002D46DD /* overtite.cpp */,
@@ -149,7 +146,6 @@
 			files = (
 				A985BE3A228DA8B400FF22DA /* main.cpp in Sources */,
 				A967D85622A2133A006C2702 /* JudgePosition.cpp in Sources */,
-				A92F465822C8AFAD0084ED7E /* String.cpp in Sources */,
 				A9BB928F228F0C35008B637C /* quickSort.cpp in Sources */,
 				A9C63467229599950055EF60 /* VirtualTable.cpp in Sources */,
 				A912210522ACAF34000C72D8 /* testErase.cpp in Sources */,
